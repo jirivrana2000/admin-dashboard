@@ -47,6 +47,88 @@ table {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /*My own css start here*/
 
+.container {
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 150px 1fr;
+}
 
+.side-panel {
+  box-sizing: border-box;
+  background-color: #2563eb;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  xborder: 3px solid purple;
+}
+
+.icon {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 28px;
+  align-self: center;
+  color: white;
+}
+
+.navigation {
+  display: grid;
+
+}
+
+.navigation2 {
+  display: grid;
+  margin-top: 50px;
+}
+
+.nav-choice {
+  display: flex;
+  margin: 20px;
+}
+
+.nav-choice > p {
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+
+}
+
+.up-panel {
+  box-sizing: border-box;
+  border: 3px solid yellow;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.content-panel {
+  box-sizing: border-box;
+  border: 3px solid red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 670px;
+}
